@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  text-align: center;
+  font-family: 'Merriweather', sans-serif;
+  height: 100%;
+  background-color: lightgrey;
+}
+
+.table, .btn {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1 {
+  color: #e23f2c;
+}
+
+.jumbotron{
+  background: #11385B;
+  color: white;
+  margin-bottom: 0;
+  border-radius: 0;
+}
+
+.header .jumbotron {
+  background-image: url('https://www.usa.gov/sites/all/themes/usa/images/HP_Image.jpg');
+  background-size: cover;
+}
+
+.Loader {
+  position: relative;
+  width: 2.5rem;
+  height: 2.5rem;
+  margin: auto;
+}
+
+.DoubleBounce1, .DoubleBounce2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: #fff;
+  opacity: 0.6;
+
+  animation: sk-bounce 2.0s infinite ease-in-out;
+}
+
+.DoubleBounce2 {
+  animation-delay: -1.0s;
+}
+
+@keyframes sk-bounce {
+  0%, 100% {
+    transform: scale(0.0);
+  } 50% {
+    transform: scale(1.0);
+  }
+}
